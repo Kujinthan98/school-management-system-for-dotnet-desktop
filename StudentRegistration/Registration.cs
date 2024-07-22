@@ -210,7 +210,7 @@ namespace StudentRegistration
            
             try
             {
-                dv = new DataView(dt, "first_name LIKE '%" + textBox1.Text + "%'", " first_name asc ", DataViewRowState.CurrentRows);
+                dv = new DataView(dt, "first_name LIKE '%" + txtFirstName.Text + "%'", " first_name asc ", DataViewRowState.CurrentRows);
                 dgvStudents.DataSource = dv;
             }
             catch (Exception)

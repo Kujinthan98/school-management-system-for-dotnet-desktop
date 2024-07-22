@@ -54,9 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> parent of c5feede (Revert "This is my first commit for this project")
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -79,10 +82,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Folder Include="UI\grade\" />
     <Folder Include="UI\student\" />
     <Folder Include="UI\subject\" />
   </ItemGroup>
+=======
+>>>>>>> parent of c5feede (Revert "This is my first commit for this project")
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
